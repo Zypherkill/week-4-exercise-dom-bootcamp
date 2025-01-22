@@ -39,18 +39,32 @@ let changeText = document.querySelectorAll('p');
 });
 
 /* 9 */
+document.querySelectorAll('article button');
 
+for (let i = 0; i < changeButton.length; i++) {
+    changeButton[i].innerText = 'Add to cart';
+}
 
 /* 10 */
-
+let homeClass = document.querySelector('header > nav a');
+homeClass.classList.add ('active');
 
 /* 11 */
+const removeClassFromLogo = document.querySelector('.logo');
+removeClassFromLogo.classList.remove('logo');
 
 
 /* 12 */
+let menu = document.querySelector('nav');
+const addMenuOption = document.createElement('a');
+addMenuOption.setAttribute('href', '#');
+addMenuOption.textContent = 'Ny länk';
+menu.append(addMenuOption);
 
 
 /* 13 */
+let main = document.querySelector('main');
+let createArticle = document.createElement('article');
 
 
 /* 14 */
