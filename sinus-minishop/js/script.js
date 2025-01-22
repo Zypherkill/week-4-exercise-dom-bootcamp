@@ -1,27 +1,42 @@
 // Code here!
 /* 1 */
-
-
+let changeName = document.querySelector ('.art-1 h3');
+changeName.innerText = 'Potato';
 /* 2 */
-
+let changeHome = document.querySelector('footer > section > article a');
+changeHome.innerText = 'Start';
 
 /* 3 */
-
+let changeContact = document.querySelector('footer > section > article a:nth-of-type(3)');
+changeContact.innerText = 'Mail us';
 
 /* 4 */
-
+let changeFire = document.querySelector ('.art-2 p');
+changeFire.innerText = 'Denne text har ändrats';
 
 /* 5 */
+let changeButton = document.querySelectorAll('article button');
 
+for (let i = 0; i < changeButton.length; i++) {
+    changeButton[i].style.backgroundColor = 'blue';
+}
 
 /* 6 */
+let changeBackgroundColor = document.querySelectorAll('main article figure');
 
+for (let i = 0; i < changeBackgroundColor.length; i++) {
+    changeBackgroundColor[i].style.backgroundColor = 'green';
+}
 
 /* 7 */
-
+let changeAdress = document.querySelector('footer > section > article p');
+changeAdress.innerText = 'Sinus Skateboards\n Västra Torggatan 19A\n 66531 Kil';
 
 /* 8 */
-
+let changeText = document.querySelectorAll('p');
+    changeText.forEach(changeText => {
+    changeText.style.color = 'purple';
+});
 
 /* 9 */
 
